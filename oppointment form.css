@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+     height:100vh;
+     width: 100vw;
+     background-image:url("https://m.economictimes.com/thumb/msid-88607879,width-1200,height-900,resizemode-4,imgsize-55812/education.jpg")
+     background-size: cover;
+     display: flex;
+     padding:10% 10% 10% 10%;
+     align-items: center;
+     justify-content:center;
+
+ }
+ 
+ .register_form{
+   background-color: white;
+     height: 600px;
+     width: 420px;
+     padding:5% 5% 5% 3%;
+     border-radius: 10px;
+      
+ }
+ 
+ .register_form h4{
+    margin-left:10px;
+
+ }
+ .inputs{  
+    display: flex;
+    flex-direction: column;
+    outline: none;
+
+ }
+ .inputs input{
+    margin: 10px;
+    border-style: none none solid none;
+    border-width: 1px;
+    padding :2px;
+    outline: none;
+
+ }
+ .inputs select{
+    margin: 10px;
+    border-style: none none solid none;
+    border-width: 2px;
+    padding :2px;
+    outline: none;
+
+ }
+ .inputs p{
+    font-weight: 900;
+    margin:10px 10px 10px 10px;
+
+ }
+ .checkbox{
+     display: flex;
+     margin:10px;
+
+ }
+ .checkbox input{
+     margin:10px;
+ }
+ .checkbox span{
+    margin :10px;
+    color:blue
+ }
+ 
+ .checkbox span a{
+    color :black;
+
+
+ }
+
+
+
+ button{
+    background-color: rgb(63, 63, 170);
+    padding:10px;
+    border-style: none;
+    border-radius: 5px;
+    margin:10px;
+    color:gold;
+ }
+
+ buttpon:hover{
+    background-color: greenyellow;
+    box-shadow: rgb(0, 255, 136);
+ }
